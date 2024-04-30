@@ -39,7 +39,6 @@ public class Main {
         double denominator = rPlusOneToNthPow - 1;
         double mortgage = (numerator/ denominator) * principal;
 
-       // mortgage = scanner.nextDouble();
         NumberFormat mortgageFormat = NumberFormat.getCurrencyInstance();
         String resultMortgage = mortgageFormat.format(mortgage);
 
